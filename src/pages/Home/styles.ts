@@ -51,7 +51,9 @@ export const HomeContainer = styled.div`
     }
 
     @media (width <= 768px) {
-      height: 100vh;
+      & {
+        height: 100%;
+      }
     }
   }
 `
